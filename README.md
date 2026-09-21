@@ -33,3 +33,4 @@ Put your video at `input.mp4`. The result is saved as `ascii_output.mp4`.
 
 - Tested with MoviePy [version]. MoviePy 2.x renamed some functions, so pin the version in `requirements.txt` if you update.
 - [Add a rendering-time note or improvement here once you've measured it.]
+- Change target_char_width=80 in process_frame to 160 for a sharper result. Rendering will be slower, but it's a good setting
